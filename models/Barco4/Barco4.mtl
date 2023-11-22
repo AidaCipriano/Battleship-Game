@@ -1,0 +1,45 @@
+# Blender 3.4.1 MTL File: 'Alreigh Burke destroyer.blend'
+# www.blender.org
+
+newmtl guns
+Ka 0.200000 0.200000 0.200000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd burke destroyer_guns_BaseColorEDITED.png
+map_Ns burke destroyer_guns_Roughness.png
+map_refl burke destroyer_guns_Metallic.png
+
+newmtl lambert1
+Ka 0.300000 0.300000 0.300000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd burke destroyer_lambert1_BaseColor.png
+map_Ns burke destroyer_lambert1_Roughness.png
+map_refl burke destroyer_lambert1_Metallic.png
+
+newmtl metals
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd burke destroyer_metals_BaseColor.png
+map_Ns burke destroyer_metals_Roughness.png
+map_refl burke destroyer_metals_Metallic.png
+
+newmtl ship_hull
+Ns 250.000000
+Ka 0.200000 0.200000 0.200000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd burke destroyer_ship_hull_BaseColorEDITED.png

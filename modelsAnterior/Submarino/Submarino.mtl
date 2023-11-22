@@ -1,0 +1,17 @@
+newmtl Class_Type209__Submarine:Type209SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.47 0.47 0.47
+Tf 1.00 1.00 1.00
+map_Kd 209_Hull_Color.tga.png
+Ni 1.00
+Ks 0.49 0.49 0.49
+Ns 98.00
+newmtl Class_Type209__Submarine:Type209SG1
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.20 0.20 0.20
+Ns 34.00
