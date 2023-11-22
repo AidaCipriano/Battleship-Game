@@ -177,3 +177,23 @@ tbody tr:hover{
 #btnregister {
   display: none;
   }
+
+  
+.btn-login{
+
+  margin-top: 5%;
+  border: 0; 
+  width: 150px; 
+  height: 30px;
+  font-size: 18px; 
+  color: white; 
+  border-radius: 25px; 
+  text-align: center;
+  background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%); 
+}
+
+#btnlogin {
+ display: none;
+}
+
+

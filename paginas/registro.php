@@ -5,6 +5,8 @@ include("paginas/controladores/registrate.php");
 ?>
 
 
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,13 +17,13 @@ include("paginas/controladores/registrate.php");
 
     <title>Registro</title>
 </head>
-<body class="gif">
+<body class="gif" onload="btn_ocultar_inicio();" >
     <div class="container d-flex justify-content-center align-items-center h-100">
        <div  class="container d-flex justify-content-center align-items-center h-100 divdiv containertres fondodos">
        
-            <div class="login-box p-4">
+            <div class="login-box p-4" id="form">
                 <h1 class="mb-4" >Registro</h1>
-                <form method="post"  id="form">
+                <form method="post"  >
 
                     <div id="form">
                        <div class="mb-3">
@@ -36,10 +38,6 @@ include("paginas/controladores/registrate.php");
                         <label for="password" class="form-label">Contraseña</label>
                         <input type="password" class="form-control" id="password" name="password" required>
                     </div>
-                    <div class="mb-3"> 
-                        <label class="nav-link px-2">Elija una imagen como avatar </label>
-                            <input type="file" class="form-control" id="customFile" id="avatar" > 
-                    </div>
                     <!--button type="submit" class="btn btn-primary">Iniciar Sesión</button-->
                     <div class="espacio_Boton">
                          <!--<button class="btn btn-primary" type="submit"  value="Enviar" name="register">Registrate</button>-->
@@ -51,13 +49,47 @@ include("paginas/controladores/registrate.php");
                     </div>
                     
                 </form>
-                <p class="mt-3">¿Ya tienes una cuenta? <a href="paginas/iniciosesion.php">Inicia Sesion</a></p>
+                <p class="mt-3">¿Ya tienes una cuenta? </p>
+                <input class="btn btn-primary"  onclick="btn_ocultar_inicio2();" id="hide2" value="Inicia Sesion">
+            </div>
+
+            <div class="login-box p-4" id="form2">
+                <h1 class="mb-4" >Login</h1>
+                <form method="post"  >
+
+                    <div >
+                       <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="input-email" class="form-control" id="email1" name="email1" required>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="password1" name="password1" required>
+                    </div>
+                    <!--button type="submit" class="btn btn-primary">Iniciar Sesión</button-->
+                    
+
+                    <div class="espacio_Boton">
+                         <!--<button class="btn btn-primary" type="submit"  value="Enviar" name="register">Registrate</button>-->
+                        <input class="btn btn-primary"  onclick="btn_iniciarsesion();"  value="Enviar">
+                        <p></p>
+                        <input class="btn btn-primary"  type="submit"  name="login" id="btnlogin" value="Enviar">
+                         <p class="warnings" id="warnings1"></p>
+                    </div> 
+                    </div>
+                    
+                </form>
+                
+                <p class="mt-3">¿No tienes cuenta?</p>
+                <input class="btn btn-primary"  onclick="btn_ocultar_registro();" id="hide2" value="Registrate">
             </div>
         </div>
     </div>
 </body>
 
 <script src="js/registro.js"></script>
+<script src="js/iniciosesion.js"></script>
 <script src="js/jquery.min.js"></script>
 
 </html>
